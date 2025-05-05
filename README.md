@@ -38,9 +38,6 @@ Make sure you have the following installed:
 
 Getting Started
 
-Clone the repository:
-git clone https://github.com/Rohith-Manjunath/MERN-Recipe-App.git
-
 Navigate to the project directory:
 cd Mern-Recipe-App
 
