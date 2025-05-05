@@ -67,18 +67,15 @@ SECRET=your-secret-key
 Start the backend development server:
 node index.js
 
-Folder Structure
-The project uses a standard MERN stack structure:
+The project follows a standard MERN stack folder structure:
 
-MERN-Recipe-App/
-├── client/ → Contains the React frontend
-│ └── my-app/ → React application
-├── server/ → Contains the Express backend
-│ ├── Schema/ → MongoDB schemas and models
-│ ├── routes/ → API routes
-│ ├── controllers/ → Business logic and DB operations
-│ ├── middlewares/ → Middleware (e.g., authentication)
-│ └── db/ → Database configuration files
+client: Contains the React frontend application.
+server: Contains the Express.js backend application.
+Schema: Define the MongoDB schemas and models.
+routes: Define the API routes.
+controllers: Handle route logic and interact with the database.
+middlewares: Custom middleware functions.
+db: Configuration files (e.g., database connection).
 
 Technologies Used
 
